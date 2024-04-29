@@ -1,0 +1,50 @@
+.resume {
+  background-color: burlywood;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.header h1 {
+  color: black;
+  text-align: center;
+}
+
+.header p {
+  color: black
+}
+
+.contact h3,
+.education h3,
+.experience h3,
+.skills h3 {
+  color: #333;
+  
+}
+
+.skills ul,
+.experience ul {
+  list-style-type: none;
+}
+
+.skills ul li,
+.experience ul li {
+  padding-left: 20px;
+  position: relative;
+}
+
+.skills ul li::before,
+.experience ul li::before {
+  content: "\2022";
+  color: #333;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.box a{
+  font-size: 20px;
+}
